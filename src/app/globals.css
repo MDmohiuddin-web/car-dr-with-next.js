@@ -25,3 +25,35 @@ body {
     text-wrap: balance;
   }
 }
+
+.photo{
+   
+  top: 50px;
+  width: 50%;
+  /* height: 70%; */
+}
+
+.img{
+  background-image: linear-gradient(90deg, #151515 -3%, rgba(21, 21, 21, 0) 100%),url('../../public/assets/images/banner/4.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  height: 100vh;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  
+}
+.images{
+  background-image: url('../../public/assets/images/banner/2.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  height: 100vh;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  
+}
