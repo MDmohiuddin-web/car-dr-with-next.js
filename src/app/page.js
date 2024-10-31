@@ -17,12 +17,12 @@ export default function Home() {
       ></Text>
       <Services></Services>
       <Contact></Contact>
-      <Text
-        text1={`Popular Products`}
-        text2={`Browse Our Products`}
-        text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which dent look even slightly believable.`}
+      
+      <Products></Products><Text
+        text1={`Team`}
+        text2={`Meet Our Team`}
+        text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable.`}
       ></Text>
-      <Products></Products>
     </main>
   );
 }
