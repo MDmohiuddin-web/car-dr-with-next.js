@@ -1,7 +1,7 @@
 export const Services = 
 [
   {
-    service_id: "04",
+    _id: "04",
     title: "Engine Oil Change",
     img: "https://i.ibb.co/T2cpBd5/888.jpg",
     price: "20.00",
@@ -31,7 +31,7 @@ export const Services =
     ],
   },
   {
-    service_id: "05",
+    _id: "05",
     title: "Battery Charge",
     img: "https://i.ibb.co/ydCbDN3/5555.jpg",
     price: "20.00",
@@ -61,7 +61,7 @@ export const Services =
     ],
   },
   {
-    service_id: "01",
+    _id: "01",
     title: "Full car Repair",
     img: "https://i.ibb.co/R6Z2nFM/55.jpg",
     price: "200.00",
@@ -91,7 +91,7 @@ export const Services =
     ],
   },
   {
-    service_id: "02",
+    _id: "02",
     title: "Engine Repair",
     img: "https://i.ibb.co/5MvmD2g/88.jpg",
     price: "150.00",
@@ -121,7 +121,7 @@ export const Services =
     ],
   },
   {
-    service_id: "03",
+    _id: "03",
     title: "Automatic Services",
     img: "https://i.ibb.co/wh7t3N3/555.jpg",
     price: "30.00",
@@ -151,7 +151,7 @@ export const Services =
     ],
   },
   {
-    service_id: "06",
+    _id: "06",
     title: "Electrical System",
     img: "https://i.ibb.co/KzCG8qr/8888.jpg",
     price: "20.00",

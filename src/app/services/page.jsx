@@ -2,7 +2,7 @@ import React from "react";
 import ServiceCard from "../component/ServiceCard";
 import {Services} from "../../lib/Services"
 
-const page = () => {
+const Service = () => {
     // console.log(Services);
 
 
@@ -13,7 +13,7 @@ const page = () => {
         <ServiceCard key={service._id} service={service}  /> 
       ))}
     </div>
-  );
+  ); 
 };
 
-export default page;
+export default Service;
