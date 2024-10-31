@@ -32,8 +32,8 @@ const ServiceCard = ({ service, loader }) => {
           <div>
             <Link href={`/BookService/${_id}`}>
               <Image
-                height={50}
-                width={50}
+                height={30}
+                width={30}
                 src={i}
                 alt=""
                 className="cursor-pointer"
