@@ -8,9 +8,9 @@ import im from "../../../public/assets/images/login/login.svg";
 
 const page = () => {
   return (
-    <div className=" flex-wrap flex   my-10   items-center text-black">
-      <div className="bg-white p-6 rounded-lg  w-full md:w-[30%] m-auto my-5 md:h-[300px] ">
-        <Image src={im} alt="" />
+    <div className=" flex-wrap flex  my-10  items-center capitalize text-black">
+      <div className="bg-white p-6 m-auto rounded-lg  w-full md:w-[30%] m my-5 md:h-[300px] ">
+        <Image src={im} alt="Login" />
       </div>
       {/*  */}
       <div className="bg-white p-6 rounded-lg shadow-md w-full md:w-[35%] m-auto">
@@ -63,8 +63,10 @@ const page = () => {
           <p className="mt-4 text-gray-600 text-center">Or Log in with</p>
 
           <div className="flex gap-5 my-4 justify-center ">
-            <Image src={Google} alt="" 
-            // onClick={handleGoogleSignIn} 
+            <Image
+              src={Google}
+              alt=""
+              // onClick={handleGoogleSignIn}
             />
             <Image src={facebook} alt="" />
             <Image src={linkding} alt="" />

@@ -1,8 +1,9 @@
-
 import Banner from "./component/Banner";
 import About from "@/app/about/page";
 import Text from "./component/Text";
 import Services from "./services/page";
+import Contact from "./contact/page";
+import Products from "./component/Products";
 
 export default function Home() {
   return (
@@ -15,7 +16,13 @@ export default function Home() {
         text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which dent look even slightly believable.`}
       ></Text>
       <Services></Services>
-
+      <Contact></Contact>
+      <Text
+        text1={`Popular Products`}
+        text2={`Browse Our Products`}
+        text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which dent look even slightly believable.`}
+      ></Text>
+      <Products></Products>
     </main>
   );
 }
