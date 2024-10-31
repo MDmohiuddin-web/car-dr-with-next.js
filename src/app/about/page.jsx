@@ -1,13 +1,12 @@
-
 import img2 from "../../../public/assets/images/about_us/parts.jpg";
-import img1 from "../../../public/assets/images/about_us/person.jpg"
+import img1 from "../../../public/assets/images/about_us/person.jpg";
 
 import Image from "next/image";
 import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="flex flex-wrap gap-5 py-10  ">
+    <div className="flex flex-wrap gap-5 py-10 my-10 ">
       <div className="md:w-[48%] relative">
         <Image src={img1} alt="" className="w-3/4 rounded-lg" />
         <Image
@@ -33,7 +32,7 @@ const page = () => {
         </p>
         <Link
           href="/ServiceDetails"
-          className="bg-red-500 text-white  btn border-none  "
+          className="bg-red-500 hover:bg-black text-white  btn border-none  "
         >
           Get More Info
         </Link>

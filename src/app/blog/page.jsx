@@ -10,7 +10,7 @@ import ivideo from "../../../public/assets/Framevideo.svg";
 import arro2 from "../../../public/assets/Frame@1x.svg";
 import logo2 from "../../../public/assets/logo.svg";
 
-const Page = () => {
+const BLOG = () => {
   return (
     <div className="text-black">
       <div className="img">
@@ -177,4 +177,4 @@ const Page = () => {
     </div>
   );
 };
-export default Page;
+export default BLOG;
