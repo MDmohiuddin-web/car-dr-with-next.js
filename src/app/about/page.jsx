@@ -17,7 +17,7 @@ const page = () => {
       </div>
       {/*  */}
       <div className="md:w-[48%] space-y-3 px-5 text-center md:text-left">
-        <h4 className="text-red-500 font-bold">about us</h4>
+        <h4 className="text-red-500 font-bold text-4xl">about us</h4>
         <h2 className="md:text-5xl font-bold text-black">
           We are qualified & of experience in this field
         </h2>

@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Products = () => {
   return (
-    <div className="my-5 flex flex-wrap capitalize gap-5 justify-center w-4/5 mx-auto ">
+    <div className="my-5 flex flex-wrap capitalize gap-5 justify-center w-4/5 m-auto ">
       <div className="card card-compact w-full md:w-[300px] bg-base-100 shadow-md rounded-md border p-2 hover:shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
         <figure>
           <Image

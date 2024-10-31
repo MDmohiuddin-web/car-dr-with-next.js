@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme="light">
       <body className={` antialiased bg-white${roboto.className} bg-white`}>
         <Navbar></Navbar>
-        <div className="md:px-20 mx-auto"> {children}</div>
+        <div className="md:px-20 mx-auto px-10"> {children}</div>
 
         <Footer></Footer>
       </body>

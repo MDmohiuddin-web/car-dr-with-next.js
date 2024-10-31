@@ -16,26 +16,34 @@ export default function Home() {
         text1={`Service`}
         text2={`Our Service Area`}
         text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which dent look even slightly believable.`}
-      ></Text>
+      >
+
+      </Text>
       <Services></Services>
       <Contact></Contact>
       <Text
         text1={`Popular Products`}
         text2={`Browse Our Products`}
         text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which dent look even slightly believable.`}
-      ></Text>
+      >
+
+      </Text>
       <Products></Products>
       <Text
         text1={`Team`}
         text2={`Meet Our Team`}
         text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable.`}
-      ></Text>
+      >
+
+      </Text>
       <Team></Team>
       <Text
         text1={`Core Features`}
         text2={`Why Choose Us`}
         text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable.`}
-      ></Text>
+      >
+        
+      </Text>
       <ChooseUsCards></ChooseUsCards>
     </main>
   );
