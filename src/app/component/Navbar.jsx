@@ -24,6 +24,9 @@ const Navbar = () => {
       <li className="text-black">
         <Link href="/contact">Contact</Link>
       </li>
+      <li className="text-black">
+        <Link href="/booking">Booking</Link>
+      </li>
     </>
   );
   return (
@@ -65,8 +68,13 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end gap-5">
-        <IoCartOutline className="text-xl text-black" />
-        <IoSearchSharp className="text-xl text-black" />
+        <Link href="/booking">
+          <IoCartOutline className="text-xl text-black" />
+        </Link>
+        <Link href="/services">
+          <IoSearchSharp className="text-xl text-black" />
+        </Link>
+
         <button className="text-red-500 btn-outline btn">Appointment</button>
 
         {user ? (

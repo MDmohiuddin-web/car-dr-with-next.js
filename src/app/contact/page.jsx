@@ -27,7 +27,7 @@ const page = () => {
         <Image alt="" src={logo3}></Image>
         <div className="text-white space-y-2 py-5">
           <h1 className="text-2xl font-bold"> Need a repair? our address</h1>
-          <p className="text-2xl md:text-4xl">Liza Street, New York</p>
+          <p className="text-2xl md:text-3xl">Liza Street, New York</p>
         </div>
       </div>
     </div>

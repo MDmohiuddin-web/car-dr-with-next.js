@@ -6,6 +6,7 @@ import Contact from "./contact/page";
 import Products from "./component/Products";
 import Team from "./component/Team";
 import ChooseUsCards from "./component/ChooseUsCards";
+import Review from "./component/Review";
 
 export default function Home() {
   return (
@@ -44,7 +45,15 @@ export default function Home() {
       >
         
       </Text>
-      <ChooseUsCards></ChooseUsCards>
+      <ChooseUsCards></ChooseUsCards> 
+      <Text
+        text1={`Testimonial`}
+        text2={`What Customer Says`}
+        text3={`the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable.`}
+      >
+        
+      </Text>
+      <Review></Review>
     </main>
   );
 }

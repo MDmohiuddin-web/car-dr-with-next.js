@@ -2,16 +2,17 @@
 import Link from "next/link";
 import logo from "../../../public/assets/logo.svg";
 import Image from "next/image";
+import social from '../../../public/assets/midia.svg'
 
 const Footer = () => {
     return (
-        <footer className="footer bg-base-200 text-base-content p-10">
+        <footer className="footer bg-black text-white p-10">
         <aside>
         <Link href="/">
           <Image
             alt=""
             src={logo}
-            className="w-[100px] h-[50px] lg:w-[150px] "
+            className=" lg:w-[150px] "
           ></Image>
         </Link>
           <p>
@@ -19,6 +20,7 @@ const Footer = () => {
             <br />
             Providing reliable tech since 1992
           </p>
+          <Image src={social} alt="" className='w-[150px] h-[50px] ' />
         </aside>
         <nav>
           <h6 className="footer-title">Services</h6>
