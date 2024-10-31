@@ -5,7 +5,7 @@ import img2 from "../../../public/assets/review2.png";
 
 const Review = () => {
   return (
-    <div className="carousel w-full my-5">
+    <div className="carousel w-full">
       <div id="review1" className="carousel-item relative w-full">
         <div className="flex gap-5 flex-wrap my-5 justify-center items-center w-full">
           <Image src={img1} alt="Review 1" />
